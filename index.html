@@ -1,20 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Belajar JavaScript Lanjutan</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Belajar JavaScript Lanjutan</title>
 
-    <h1>Belajar JavaScript Lanjutan</h1>
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/style.css">
 
-    <!-- footer start -->
-    <footer>
-        Copyright &copy; 2024, Developted by 
-        <a href="https://github.com/janzenfaidiban" target="_blank">Janzen Faidiban</a>
-    </footer>
-    <!-- footer end -->
-    
-</body>
+    </head>
+    <body>
+
+        <h1>Belajar JavaScript Lanjutan</h1>
+
+        <!-- main start -->
+        <main>
+
+            <h2 id="nama"></h2>
+
+            <button
+                onclick="document.getElementById('myImage').src='images/pic_bulbon.gif'">
+                Turn on the light
+            </button>
+
+            <img id="myImage" src="images/pic_bulboff.gif" style="width:100px">
+
+            <button
+                onclick="document.getElementById('myImage').src='images/pic_bulboff.gif'">
+                Turn off the light
+            </button>
+
+        </main>
+        <!-- main end -->
+
+        <!-- footer start -->
+        <footer>
+            Copyright &copy; 2024, Developted by
+            <a href="https://github.com/janzenfaidiban" target="_blank">Janzen
+                Faidiban</a>
+        </footer>
+        <!-- footer end -->
+
+        <!-- JavaScript -->
+        <script src="js/script.js"></script>
+
+    </body>
 </html>
